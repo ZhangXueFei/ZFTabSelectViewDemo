@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1F59AE42F83BB318984ABE /* libPods-ZFTabSelectViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F981930196C14E1789FCB8A /* libPods-ZFTabSelectViewDemoTests.a */; };
 		B1049A3E22BA523C001ED8C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1049A3D22BA523C001ED8C2 /* AppDelegate.m */; };
 		B1049A4122BA523C001ED8C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1049A4022BA523C001ED8C2 /* ViewController.m */; };
 		B1049A4422BA523C001ED8C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1049A4222BA523C001ED8C2 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		B1049A4C22BA523D001ED8C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1049A4A22BA523D001ED8C2 /* LaunchScreen.storyboard */; };
 		B1049A4F22BA523D001ED8C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1049A4E22BA523D001ED8C2 /* main.m */; };
 		B1049A5922BA523D001ED8C2 /* ZFTabSelectViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1049A5822BA523D001ED8C2 /* ZFTabSelectViewDemoTests.m */; };
+		B1049A6A22BA528A001ED8C2 /* ZFTabConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = B1049A6422BA528A001ED8C2 /* ZFTabConfiguration.m */; };
+		B1049A6B22BA528A001ED8C2 /* ZFTabSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1049A6822BA528A001ED8C2 /* ZFTabSelectView.m */; };
+		B1049A6C22BA528A001ED8C2 /* ZFJumpTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1049A6922BA528A001ED8C2 /* ZFJumpTableView.m */; };
+		B1049A7022BA5484001ED8C2 /* ZFSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1049A6F22BA5484001ED8C2 /* ZFSelectViewController.m */; };
+		E22B19DD78AF74591560EF30 /* libPods-ZFTabSelectViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 016E11DB8A5246879F99A0BC /* libPods-ZFTabSelectViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016E11DB8A5246879F99A0BC /* libPods-ZFTabSelectViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFTabSelectViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5835EB18B0E90DE3060123 /* Pods-ZFTabSelectViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFTabSelectViewDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ZFTabSelectViewDemoTests/Pods-ZFTabSelectViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DBB71ADACFE0E851419059A /* Pods-ZFTabSelectViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFTabSelectViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZFTabSelectViewDemo/Pods-ZFTabSelectViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7F981930196C14E1789FCB8A /* libPods-ZFTabSelectViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFTabSelectViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8525FF1E1435F8951F6CEAE7 /* Pods-ZFTabSelectViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFTabSelectViewDemo.release.xcconfig"; path = "Target Support Files/Pods-ZFTabSelectViewDemo/Pods-ZFTabSelectViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B1049A3922BA523C001ED8C2 /* ZFTabSelectViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFTabSelectViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1049A3C22BA523C001ED8C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1049A3D22BA523C001ED8C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +53,15 @@
 		B1049A5422BA523D001ED8C2 /* ZFTabSelectViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFTabSelectViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1049A5822BA523D001ED8C2 /* ZFTabSelectViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFTabSelectViewDemoTests.m; sourceTree = "<group>"; };
 		B1049A5A22BA523D001ED8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1049A6422BA528A001ED8C2 /* ZFTabConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTabConfiguration.m; sourceTree = "<group>"; };
+		B1049A6522BA528A001ED8C2 /* ZFTabSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTabSelectView.h; sourceTree = "<group>"; };
+		B1049A6622BA528A001ED8C2 /* ZFJumpTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFJumpTableView.h; sourceTree = "<group>"; };
+		B1049A6722BA528A001ED8C2 /* ZFTabConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTabConfiguration.h; sourceTree = "<group>"; };
+		B1049A6822BA528A001ED8C2 /* ZFTabSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTabSelectView.m; sourceTree = "<group>"; };
+		B1049A6922BA528A001ED8C2 /* ZFJumpTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFJumpTableView.m; sourceTree = "<group>"; };
+		B1049A6E22BA5484001ED8C2 /* ZFSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFSelectViewController.h; sourceTree = "<group>"; };
+		B1049A6F22BA5484001ED8C2 /* ZFSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFSelectViewController.m; sourceTree = "<group>"; };
+		EF167FF1C786D01AE7E8683C /* Pods-ZFTabSelectViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFTabSelectViewDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ZFTabSelectViewDemoTests/Pods-ZFTabSelectViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22B19DD78AF74591560EF30 /* libPods-ZFTabSelectViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +77,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1F59AE42F83BB318984ABE /* libPods-ZFTabSelectViewDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33BD39012B2A4F03B4476532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				016E11DB8A5246879F99A0BC /* libPods-ZFTabSelectViewDemo.a */,
+				7F981930196C14E1789FCB8A /* libPods-ZFTabSelectViewDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86EDA57D1899D0012F8C2EDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB71ADACFE0E851419059A /* Pods-ZFTabSelectViewDemo.debug.xcconfig */,
+				8525FF1E1435F8951F6CEAE7 /* Pods-ZFTabSelectViewDemo.release.xcconfig */,
+				0D5835EB18B0E90DE3060123 /* Pods-ZFTabSelectViewDemoTests.debug.xcconfig */,
+				EF167FF1C786D01AE7E8683C /* Pods-ZFTabSelectViewDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B1049A3022BA523C001ED8C2 = {
 			isa = PBXGroup;
 			children = (
 				B1049A3B22BA523C001ED8C2 /* ZFTabSelectViewDemo */,
 				B1049A5722BA523D001ED8C2 /* ZFTabSelectViewDemoTests */,
 				B1049A3A22BA523C001ED8C2 /* Products */,
+				86EDA57D1899D0012F8C2EDA /* Pods */,
+				33BD39012B2A4F03B4476532 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +128,8 @@
 		B1049A3B22BA523C001ED8C2 /* ZFTabSelectViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B1049A6322BA528A001ED8C2 /* lib */,
+				B1049A6D22BA5470001ED8C2 /* ViewController */,
 				B1049A3C22BA523C001ED8C2 /* AppDelegate.h */,
 				B1049A3D22BA523C001ED8C2 /* AppDelegate.m */,
 				B1049A3F22BA523C001ED8C2 /* ViewController.h */,
@@ -106,6 +153,28 @@
 			path = ZFTabSelectViewDemoTests;
 			sourceTree = "<group>";
 		};
+		B1049A6322BA528A001ED8C2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B1049A6722BA528A001ED8C2 /* ZFTabConfiguration.h */,
+				B1049A6422BA528A001ED8C2 /* ZFTabConfiguration.m */,
+				B1049A6522BA528A001ED8C2 /* ZFTabSelectView.h */,
+				B1049A6822BA528A001ED8C2 /* ZFTabSelectView.m */,
+				B1049A6622BA528A001ED8C2 /* ZFJumpTableView.h */,
+				B1049A6922BA528A001ED8C2 /* ZFJumpTableView.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B1049A6D22BA5470001ED8C2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1049A6E22BA5484001ED8C2 /* ZFSelectViewController.h */,
+				B1049A6F22BA5484001ED8C2 /* ZFSelectViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1049A5D22BA523D001ED8C2 /* Build configuration list for PBXNativeTarget "ZFTabSelectViewDemo" */;
 			buildPhases = (
+				BB29035E156F8CD119526F71 /* [CP] Check Pods Manifest.lock */,
 				B1049A3522BA523C001ED8C2 /* Sources */,
 				B1049A3622BA523C001ED8C2 /* Frameworks */,
 				B1049A3722BA523C001ED8C2 /* Resources */,
@@ -130,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1049A6022BA523D001ED8C2 /* Build configuration list for PBXNativeTarget "ZFTabSelectViewDemoTests" */;
 			buildPhases = (
+				3C07D7A1B5D23E2EBC190E1E /* [CP] Check Pods Manifest.lock */,
 				B1049A5022BA523D001ED8C2 /* Sources */,
 				B1049A5122BA523D001ED8C2 /* Frameworks */,
 				B1049A5222BA523D001ED8C2 /* Resources */,
@@ -201,12 +272,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C07D7A1B5D23E2EBC190E1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFTabSelectViewDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB29035E156F8CD119526F71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFTabSelectViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1049A3522BA523C001ED8C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1049A6A22BA528A001ED8C2 /* ZFTabConfiguration.m in Sources */,
 				B1049A4122BA523C001ED8C2 /* ViewController.m in Sources */,
+				B1049A7022BA5484001ED8C2 /* ZFSelectViewController.m in Sources */,
+				B1049A6C22BA528A001ED8C2 /* ZFJumpTableView.m in Sources */,
+				B1049A6B22BA528A001ED8C2 /* ZFTabSelectView.m in Sources */,
 				B1049A3E22BA523C001ED8C2 /* AppDelegate.m in Sources */,
 				B1049A4F22BA523D001ED8C2 /* main.m in Sources */,
 				B1049A4722BA523C001ED8C2 /* ZFTabSelectViewDemo.xcdatamodeld in Sources */,
@@ -365,6 +487,7 @@
 		};
 		B1049A5E22BA523D001ED8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DBB71ADACFE0E851419059A /* Pods-ZFTabSelectViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +504,7 @@
 		};
 		B1049A5F22BA523D001ED8C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8525FF1E1435F8951F6CEAE7 /* Pods-ZFTabSelectViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +521,7 @@
 		};
 		B1049A6122BA523D001ED8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5835EB18B0E90DE3060123 /* Pods-ZFTabSelectViewDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -415,6 +540,7 @@
 		};
 		B1049A6222BA523D001ED8C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF167FF1C786D01AE7E8683C /* Pods-ZFTabSelectViewDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
